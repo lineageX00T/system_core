@@ -222,7 +222,7 @@ cc_library_host_static {
         "fastboot_driver.cpp",
     ],
     product_variables: {
-        aosp: {
+        aosqp: {
             target_uses_prebuilt_dynamic_partitions: {
                 cflags: ["-DTARGET_USES_PREBUILT_DYNAMIC_PARTITIONS"],
             },
